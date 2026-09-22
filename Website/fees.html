@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adventure Escape SA | Calculate Fees</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Adventure Escape SA
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="mountain-hiking.html">ACTIVITIES</a>
+                <a href="fees.html">CALCULATE FEES</a>
+                <a href="contact.html">CONTACT US</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- PAGE HEADER -->
+        <section class="page-header">
+
+            <p>HOME / CALCULATE FEES</p>
+
+            <h1>Calculate Your Adventure Fees</h1>
+
+            <p>
+                Select your activity and enter your requirements
+                to prepare your adventure cost.
+            </p>
+
+        </section>
+
+
+        <!-- FEES FORM -->
+        <section class="fees-section">
+
+            <div class="fees-card">
+
+                <h2>Adventure Booking Details</h2>
+
+                <form>
+
+
+                    <!-- ACTIVITY -->
+                    <label for="activity">
+                        Select Activity
+                    </label>
+
+                    <select id="activity" name="activity" required>
+
+                        <option value="">
+                            Select an activity
+                        </option>
+
+                        <option value="mountain-hiking">
+                            Mountain Hiking
+                        </option>
+
+                        <option value="kayaking">
+                            Kayaking
+                        </option>
+
+                        <option value="camping">
+                            Camping
+                        </option>
+
+                        <option value="team-building">
+                            Team Building
+                        </option>
+
+                        <option value="adventure-camp">
+                            Adventure Camp
+                        </option>
+
+                        <option value="eco-experience">
+                            Eco Experience
+                        </option>
+
+                    </select>
+
+
+                    <!-- PARTICIPANTS -->
+                    <label for="participants">
+                        Number of Participants
+                    </label>
+
+                    <input
+                        type="number"
+                        id="participants"
+                        name="participants"
+                        min="1"
+                        max="50"
+                        placeholder="Enter number of participants"
+                        required
+                    >
+
+
+                    <!-- DATE -->
+                    <label for="date">
+                        Select Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        required
+                    >
+
+
+                    <!-- ACCOMMODATION -->
+                    <label for="accommodation">
+                        Accommodation
+                    </label>
+
+                    <select
+                        id="accommodation"
+                        name="accommodation"
+                    >
+
+                        <option value="none">
+                            No Accommodation
+                        </option>
+
+                        <option value="standard">
+                            Standard Accommodation
+                        </option>
+
+                        <option value="premium">
+                            Premium Accommodation
+                        </option>
+
+                    </select>
+
+
+                    <!-- EQUIPMENT -->
+                    <label for="equipment">
+                        Equipment Required
+                    </label>
+
+                    <select
+                        id="equipment"
+                        name="equipment"
+                    >
+
+                        <option value="included">
+                            Standard Equipment Included
+                        </option>
+
+                        <option value="extra">
+                            Additional Equipment
+                        </option>
+
+                    </select>
+
+
+                    <!-- BUTTON -->
+                    <button
+                        type="button"
+                        class="button"
+                    >
+                        CALCULATE FEES
+                    </button>
+
+
+                </form>
+
+            </div>
+
+
+            <!-- INFORMATION -->
+            <div class="fees-info">
+
+                <h2>Plan Your Adventure</h2>
+
+                <p>
+                    Choose an activity and provide your booking
+                    details to prepare your estimated adventure cost.
+                </p>
+
+                <div class="fee-note">
+
+                    <h3>Available Activities</h3>
+
+                    <ul>
+                        <li>Mountain Hiking</li>
+                        <li>Kayaking</li>
+                        <li>Camping</li>
+                        <li>Team Building</li>
+                        <li>Adventure Camp</li>
+                        <li>Eco Experience</li>
+                    </ul>
+
+                </div>
+
+                <div class="fee-note">
+
+                    <h3>Important Information</h3>
+
+                    <p>
+                        Final pricing may depend on the selected
+                        activity, number of participants,
+                        accommodation and additional requirements.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Adventure Escape SA</h3>
+
+        <p>Explore. Experience. Escape.</p>
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="fees.html">Calculate Fees</a>
+            <a href="contact.html">Contact Us</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Adventure Escape SA. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
