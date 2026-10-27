@@ -290,17 +290,20 @@ h2 {
    PAGE HEADER
 ========================================= */
 
+
 .page-header {
     background-image: linear-gradient(
         rgba(38, 50, 56, 0.45),
         rgba(38, 50, 56, 0.45)
-    ), url("Website/images/background.jpg");
+    ), url("../images/background.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     padding: 60px 40px;
     text-align: center;
     color: var(--white);
 }
+
 
 .page-header p {
     color: var(--white);
