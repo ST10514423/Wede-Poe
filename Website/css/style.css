@@ -902,3 +902,10 @@ footer h3 {
     }
 
 }
+
+/* Styling for active menu link */
+.nav-links a.active {
+    color: #ff6b35; /* Change to your brand's highlight color */
+    font-weight: 700;
+    border-bottom: 2px solid #ff6b35;
+}
