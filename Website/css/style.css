@@ -1002,3 +1002,21 @@ footer h3 {
         text-align: center;
     }
 }
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo img,
+.logo-img {
+    height: 75px; /* Adjust this number higher (e.g. 85px or 95px) if you want it even bigger */
+    width: auto;
+    object-fit: contain;
+    display: inline-block;
+}
+
