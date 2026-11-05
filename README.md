@@ -51,7 +51,7 @@ Frontend Development: Semantic HTML5 implementation, CSS modular styling, and Ja
 
 ## Power Point
 
-* View the [Project Presentation Deck (PDF)](file:///C:/Users/emeris/Downloads/Adventurescape%20SA.pdf)
+* View the [Project Presentation Deck (PDF)](https://canva.link/dsgdltsacl6vydc)
 
 ## References
 
