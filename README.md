@@ -4,8 +4,9 @@ Welcome to the official repository for the **Adventure Escape SA** nature-themed
 
 ---
 
-Technologies Used
-HTML5: Semantic markup structuring all web pages, including accessible landmark elements (<header>, <nav>, <main>, <section>, <footer>).
+## Technologies Used
+
+HTML5: Semantic markup structuring all web pages, including accessible landmark elements (header, nav, main, section, footer).
 
 CSS: Custom styling utilizing CSS Flexbox and Grid layouts, fluid typography, and media queries for seamless mobile, tablet, and desktop responsiveness.
 
@@ -13,7 +14,8 @@ JavaScript: Client-side scripting handling interactive menu toggles, dynamic DOM
 
 Figma: Used during the initial design phase for wireframing, layout prototyping, and Auto Layout UI components.
 
-Design Choices & Rationale
+## Design Choices & Rationale
+
 Semantic HTML5 Architecture: Every page utilizes descriptive tags to improve screen reader accessibility, SEO indexing, and code maintainability.
 
 Mobile-First Responsive Design: CSS media queries adapt layouts fluidly across varying viewports, ensuring touch-friendly navigation on mobile devices and expansive multi-column grids on desktops.
@@ -22,13 +24,14 @@ Natural Color Palette: Earthy tones, greens, and browns were selected to visuall
 
 Optimized Typography: Clean sans-serif font declarations ensure high readability across both high-resolution desktop monitors and smaller mobile screens.
 
-Setup and Installation
+## Setup and Installation
+
 To run or inspect this project locally:
 
 Clone the Repository:
 
 Bash
-git clone ()
+git clone (https://github.com/EMKNDW/xhaw5112-wil-g1-2026-wil-g1-website-st10514423)
 Open in VS Code:
 Launch Visual Studio Code and open the cloned project root folder.
 
@@ -38,22 +41,39 @@ Open index.html directly in any modern web browser (Chrome, Firefox, Safari, Edg
 
 Alternatively, install the Live Server extension in VS Code and click Go Live at the bottom status bar to view the site with automatic reloading.
 
-Author & Contributions
+## Author & Contributions
+
 Developed collaboratively as part of the Web Development coursework.
 
 Design & Prototyping: Wireframes and responsive layouts built via Figma.
 
 Frontend Development: Semantic HTML5 implementation, CSS modular styling, and JavaScript interactive features.
 
-References
-Duckett, J., 2011. HTML and CSS: Design and Build Websites. Indianapolis: John Wiley & Sons.
+## References
 
-Keith, J., 2010. HTML5 for Web Designers. New York: A Book Apart.
+* Duckett, J., 2011. *HTML and CSS: Design and Build Websites*. Indianapolis: John Wiley & Sons.
 
-Mozilla Developer Network (MDN), 2026. CSS: Cascading Style Sheets. [online] Available at: https://developer.mozilla.org/en-US/docs/Web/CSS [Accessed November 2026].
+  
+* Keith, J., 2010. *HTML5 for Web Designers*. New York: A Book Apart.
 
-W3C, 2026. HTML5 Specification. World Wide Web Consortium (W3C). [online] Available at: https://html.spec.whatwg.org/ [Accessed November 2026].
+  
+* Flanagan, D., 2020. *JavaScript: The Definitive Guide*. 7th ed. Sebastopol: O'Reilly Media.
 
+  
+* Nixon, R., 2021. *Learning PHP, MySQL & JavaScript*. 6th ed. Sebastopol: O'Reilly Media.
+
+  
+* Freeman, E. and Robson, E., 2014. *Head First HTML and CSS*. 2nd ed. Sebastopol: O'Reilly Media.
+
+  
+* Mozilla Developer Network (MDN), 2026. *CSS: Cascading Style Sheets*. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed November 2026].
+
+  
+* W3C, 2026. *HTML5 Specification*. World Wide Web Consortium (W3C). [online] Available at: <https://html.spec.whatwg.org/> [Accessed November 2026].
+
+  
+* Collaborative AI Assistant (Gemini), 2026. *Iterative Code Refinement and Error Resolution: Debugging CSS Media Queries, Semantic DOM Structures, and Responsive Viewport Layouts for Adventure Escape SA*. Unpublished internal development record.
+  
 ---
 
 ## Project Structure
