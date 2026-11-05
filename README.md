@@ -49,6 +49,10 @@ Design & Prototyping: Wireframes and responsive layouts built via Figma.
 
 Frontend Development: Semantic HTML5 implementation, CSS modular styling, and JavaScript interactive features.
 
+## Power Point
+
+* View the [Project Presentation Deck (PDF)](file:///C:/Users/emeris/Downloads/Adventurescape%20SA.pdf)
+
 ## References
 
 * Duckett, J., 2011. *HTML and CSS: Design and Build Websites*. Indianapolis: John Wiley & Sons.
